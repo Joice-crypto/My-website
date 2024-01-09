@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         'botao-roxo': '#8C276E',
-        'gray-dark': '#4A4A4A'
+        'gray-dark': '#4A4A4A',
+        'green-button': '#84CC16'
       }
     },
   },
