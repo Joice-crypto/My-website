@@ -1,4 +1,7 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/no-unescaped-entities */
+'use client'
+
 import Image from "next/image";
 import joice from "../assets/Eu.jpeg";
 import html from "../assets/skills/icons8-html-50.png";
@@ -11,8 +14,12 @@ import mysql from "../assets/skills/icons8-mysql-50.png";
 import postgresql from "../assets/skills/icons8-postgreesql-50.png";
 import node from "../assets/skills/icons8-nodejs-64.png";
 import python from "../assets/skills/icons8-python-50.png";
+import { SendEmail } from "@/components/SendEmail";
+
 
 export default function Home() {
+
+
   return (
     <>
       <div className="flex justify-center p-10">
@@ -23,11 +30,11 @@ export default function Home() {
           width="150"
           height="0"
         />
-
-        <p className="text-3xl ml-10">Hello</p>
-        <p className="text-xl mt-1 "> , I'm Joice!</p>
+         
       </div>
+    <section id="sobre">
 
+   
       <div className=" bg-slate-900 grid grid-flow-col  py-10">
        
         <div className="grid grid-flow-row  mr-5 justify-center">
@@ -171,21 +178,16 @@ export default function Home() {
           </div>
           
         </div>
+        
       </div>
-
-    <div className=" bg-gray-dark  justify-items-center  pt-10  ">
-    <h1 className="text-white text-center text-xl">Contact</h1>
-      <form className=" p-5 grid grid-flow-row w-7/12 ml-64 grid-cols-1 " action="">
-        <label className="text-white pb-3" htmlFor="nome">Nome:</label>
-        <input className="rounded-md" type="text" />
-        <label className="text-white  py-3 " htmlFor="email">Email:</label>
-        <input className="rounded-md" type="email" />
-        <label className="text-white mt-5" htmlFor="mensagem">Digite sua mensagem:</label>
-        <textarea className=" h-32 mt-5 rounded-md"></textarea>
-        <input className=" mt-7 w-40 bg-fuchsia-800 hover:bg-fuchsia-700 shadow-xl ml-80 text-white rounded-lg py-2  " type="button" value="Enviar" />
-      </form>
-    </div>
-
+      </section>
+      <section id="contact">
+      <SendEmail/>
+      </section>
+     
     </>
   );
+
+
 }
+

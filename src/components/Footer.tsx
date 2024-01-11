@@ -2,15 +2,21 @@ import insta from "../assets/icons8-instagram-48.png";
 import github from "../assets/icons8-github-50.png";
 import linkedin from "../assets/icons8-linkedin-48.png";
 import Image from "next/image";
+import React, { useRef } from 'react';
+
+
+
 export function Footer() {
+
+ 
   return (
     <footer className=" bg-black h-44 bottom-0 md:max-xl:flex grid grid-rows-1 grid-flow-row">
       
       <ul className="grid grid-rows-2  ml-20 grid-flow-col">
         <p className="text-white font-bold mt-7">Joice Cristina</p>
-        <p className="text-white mt-6 ">
+       <a className="text-white mt-6" href="mailto:joicecristina059@gmail.com">
         joicecristina059@gmail.com
-        </p>
+        </a>
 
         <h2 className="text-white mt-7 ml-96 font-bold">Midias Sociais</h2>
         <div className=" grid grid-flow-col mt-5 ml-96 justify-start ">
