@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bemestar from "../../assets/bemestar.png";
+import bemestar from "../../../assets/bemestar.png";
 
 
 export default function Projects() {

@@ -1,43 +1,15 @@
-import emailjs from '@emailjs/browser';
 import React, { useRef, FormEvent } from 'react';
-import  { EmailJSResponseStatus } from 'emailjs-com';
-
+import {HundleSubmitEmail} from './Form'
+import {useTranslations} from 'next-intl';
 
 export function SendEmail(){
-
-
-   function HundleSubmitEmail(event: FormEvent<HTMLFormElement>) {
-
-    event.preventDefault()
-    
-    if (event.currentTarget) {
-        emailjs
-          .sendForm(
-            'service_vglvowk',
-            'template_kz5641k',
-            event.currentTarget,
-            'BORHvOFipPS0rAL31'
-          )
-          .then(
-            (result: EmailJSResponseStatus) => {
-              window.alert("Mensagem enviada com sucesso!")
-              
-            },
-            (error: EmailJSResponseStatus) => {
-              console.log(error.text);
-            }
-          );
-      }
-      
-    
-    
-    }
+  const t = useTranslations('Form');
     
  
 
     return(
         <div className=" bg-gray-dark  justify-items-center  pt-10  ">
-        <h1 className="text-white text-center text-xl">Contact</h1>
+        <h1 className="text-white text-center text-xl">{t('title')}</h1>
           <form className=" p-5 grid grid-flow-row w-7/12 ml-64 grid-cols-1 " onSubmit={HundleSubmitEmail}>
             <label className="text-white pb-3"   htmlFor="nome">Nome:</label>
             <input className="rounded-md" name="user_name" type="text" />

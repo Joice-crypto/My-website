@@ -1,0 +1,29 @@
+{
+  "IndexPage": {
+    "Hello": "Hola,",
+    "Joice": "soy Joice!",
+    "apresentacao": ""
+  },
+  "Header": {
+    "Projetos": "Proyectos",
+    "Inicio": "Comenzar",
+    "Sobre": "Sobre",
+    "Contato":"Contacto"
+  },
+  "Sobre-mim": {
+    "Sobre-mim": "Sobre mim",
+    "texto-sobre-mim": "Olá, sou Joice uma estudante de graduação em Ciência da Computação super empolgada em me tornar uma desenvolvedora full stack. Adoro construir sites que fazem a diferença para o sucesso geral do produto. Vcoê pode da uma olhada nos meus trabalhos na aba 'Projetos'. Além disso, sou entusiasta em criar conteúdos online para ajudar iniciantes no desenvolvimento web. Conferira meu canal no YouTube aqui",
+    "skills": "Habilidades",
+    "projetos": "Acessar Projetos"
+  },
+  "Form":{
+    "title":"Contacto",
+    "Nome":"Nombe",
+    "Email":"Correo electrónico",
+    "Mensagem":"Escribe tu mensaje"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, pt {Portugués} en { Inglés } es {Español} other {Unknown}}",
+    "label": "Change language"
+  }
+}
