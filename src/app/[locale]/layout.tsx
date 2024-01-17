@@ -4,10 +4,14 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { useRouter } from 'next/router';
+import { Work_Sans as WorkSans, } from 'next/font/google'
 
 
-const inter = Inter({ subsets: ['latin'] })
+
+const worksans = WorkSans({
+  subsets: ['latin'], variable: '--font-Work-Sans',
+  weight: '600'
+})
 
 
   
@@ -22,7 +26,7 @@ export default function LocaleLayout({children, params: {locale}} : {
 }) {
   return (
     <html lang={locale}>
-      <body>
+      <body  className={`${worksans.variable}`}>
       <Header/> 
         {children}
       <Footer/>

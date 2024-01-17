@@ -29,159 +29,159 @@ export default function Home({params: {locale}} : {
 
   return (
     <>
-      <div className="flex justify-center  p-10">
-        <Image
-          className=" rounded-full"
+    <div className="grid grid-flow-col grid-cols-2   ">
+
+  
+      <div className=" justify-center h-80 flex ">
+      <Image
+          className=" rounded-full my-10 "
           src={joice}
           alt=""
-          width="150"
-          height="00"
+          width="200"
+          height="10"
         />
+        
+      </div>
+      <div className=" ">
+      <p className="   w-max text-center h-20 mt-20 font-serif text-violet-800 text-3xl">{t('Hello')}</p>
+      <p className=" font-serif text-wrap w-9/12 h-max mb-5 text-xl "> {t('apresentacao')}</p>
+      <a href={`/${locale}/projetos`}><button  className="text-white m-3 p-1 font-titles text-lg shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300    bg-gradient-to-r  rounded-md w-44 hover:bg-fuchsia-700 bg-fuchsia-800" >{a('projetos')}</button> </a>     
+      </div>
+     
 
-        <p className=" ml-10 text-violet-800 text-3xl">{t('Hello')}</p>
-        <p className=" mt-2 ml-1 text-xl">{t('Joice')}</p>
-         
       </div>
     <section id="sobre">
 
    
-      <div className=" bg-slate-900 grid grid-flow-col  py-10">
-        <div className="grid grid-flow-row  mr-5 justify-center">
-          <h1 className="text-white text-xl">{a('Sobre-mim')}</h1>
-          <p className="text-white w-80 text-justify mt-5">
-          {a('texto-sobre-mim')}
-          </p>
-          <a href="/projetos"><button  className="text-white m-3 p-1 shadow-xl rounded-md w-44 hover:bg-fuchsia-700 bg-fuchsia-800" >{a('projetos')}</button> </a>     
-        </div>
-
-        <div className="">
-          <p className="text-white text-xl text-center mb-5">{a('skills')}</p>
-          <div id="skilss" className="grid grid-cols-3 ml-5 gap-y-3  mt-5">
+      <div className=" bg-slate-900 mt-10  h-[30rem] py-10">
+  
+          <p className="text-white text-2xl font-titles text-center mb-5">{a('skills')}</p>
+          <div id="skilss" className="grid grid-cols-4 ml-40 gap-y-4 justify-center   mt-10">
           <div className="">
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125  duration-300 "
           src={html}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white ml-2">Html</p>
+          <p className="text-white font-serif ml-2">Html</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={css}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white ml-2">CSS</p>
+          <p className="text-white font-serif ml-2">CSS</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={js}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2">JavaScript</p>
+          <p className="text-white font-serif mt-2">JavaScript</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={ts}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">TypeScript</p>
+          <p className="text-white mt-2 font-serif ">TypeScript</p>
           </div>
          
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300" 
           src={react}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">ReactJS</p>
+          <p className="text-white mt-2 font-serif ">ReactJS</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={next}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">NextJS</p>
+          <p className="text-white mt-2 font-serif ">NextJS</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={node}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">NodeJs</p>
+          <p className="text-white mt-2 font-serif ">NodeJs</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={python}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">Python</p>
+          <p className="text-white mt-2 font-serif ">Python</p>
           </div>
 
 
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={mysql}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">MySQL</p>
+          <p className="text-white mt-2 font-serif ">MySQL</p>
           </div>
 
           <div>
           <Image
-          className="object-cover hover:scale-125"
+          className="object-cover transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125 duration-300"
           src={postgresql}
           alt=""
           width="50"
           height="48"
         />
 
-          <p className="text-white mt-2  ">PostgreSQL</p>
+          <p className="text-white mt-2 font-serif ">PostgreSQL</p>
           </div>
 
           </div>
           
-        </div>
+      
         
       </div>
       </section>

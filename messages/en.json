@@ -1,8 +1,7 @@
 {
   "IndexPage": {
-    "Hello": "Hello,",
-    "Joice": "I'm Joice!",
-    "apresentacao": ""
+    "Hello": "Hello, I'm Joice!",
+    "apresentacao": "I am a Computer Science student who has been passionate about technology since the age of 15. I enrolled at the Federal University of São João Del Rei in 2020, starting my undergraduate studies in Computer Science. Throughout this academic journey, I have gained valuable experiences, including active participation in a junior company, involvement in research projects, professional internships, and volunteer activities. These experiences have provided me with a solid and practical understanding of the challenges and opportunities in the field of computing. I am eager to enhance my skills further and contribute meaningfully to the advancement of technology."
   },
   "Header": {
     "Projetos": "Projects",
@@ -13,14 +12,28 @@
   "Sobre-mim": {
     "Sobre-mim": "About me",
     "texto-sobre-mim": "Olá, sou Joice uma estudante de graduação em Ciência da Computação super empolgada em me tornar uma desenvolvedora full stack. Adoro construir sites que fazem a diferença para o sucesso geral do produto. Vcoê pode da uma olhada nos meus trabalhos na aba 'Projetos'. Além disso, sou entusiasta em criar conteúdos online para ajudar iniciantes no desenvolvimento web. Conferira meu canal no YouTube aqui",
-    "skills": "Habilidades",
-    "projetos": "Acessar Projetos"
+    "skills": "Skills",
+    "projetos": "Access  projects"
   },
   "Form":{
     "title":"Contact",
     "Nome":"Name",
     "Email":"Email",
-    "Mensagem":"Type your message"
+    "Mensagem":"Type your message",
+    "enviar": "Send"
+  },
+  "Projetos":{
+    "BemEstar": "This website was conceived as part of the CODEFICO volunteer project, whose purpose was to instruct students in web development using React.js technology. Named BEM-ESTAR, it provides logged-in users with the ability to record their sleep, nutrition, physical activity, and mood routines. Subsequently, users can manage this information with the goal of achieving a healthier and more balanced lifestyle.",
+    "Fotebol":"This project was developed as a practical activity for the Database Management discipline. Football Focus is a website that provides the visualization of football matches and statistics from championships, as well as news related to the football world for non-authenticated users. For authenticated users, there is the possibility to perform CRUD (Create, Read, Update, Delete) operations regarding matches, allowing them to manage information such as teams, players, and other associated properties.",
+    "acessar": "Access project",
+    "titulo": "Main projects",
+    "emDesen": "Under Development",
+    "concluido": "Completed"
+  },
+  "Footer": {
+    "joice": "Joice Cristina",
+    "Midias": "Social Media",
+    "Feito-por": "Made by Joice Cristina"
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, pt {Portuguese} es {Spanish} en {English} other {Unknown}}",

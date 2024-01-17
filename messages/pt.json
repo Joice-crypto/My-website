@@ -1,8 +1,7 @@
 {
     "IndexPage": {
-      "Hello": "Olá,",
-      "Joice": "Eu sou Joice!",
-      "apresentacao": ""
+      "Hello": "Olá, Eu sou Joice",
+      "apresentacao": "Sou uma estudante de Ciência da Computação apaixonada por tecnologia desde os 15 anos. Ingressei na Universidade Federal de São João Del Rei em 2020, iniciando minha graduação em Ciência da Computação. Ao longo dessa trajetória acadêmica, acumulei valiosas experiências, incluindo participação ativa em uma empresa júnior, envolvimento em projetos de iniciação científica, estágio profissional e atividades voluntárias. Essas vivências proporcionaram-me uma compreensão sólida e prática dos desafios e oportunidades presentes no universo da computação. Estou ansiosa para aprimorar minhas habilidades e contribuir de forma significativa no avanço da tecnologia."
     },
     "Header": {
       "Projetos": "Projetos",
@@ -12,7 +11,7 @@
     },
     "Sobre-mim": {
       "Sobre-mim": "Sobre mim",
-      "texto-sobre-mim": "Olá, sou Joice uma estudante de graduação em Ciência da Computação super empolgada em me tornar uma desenvolvedora full stack. Adoro construir sites que fazem a diferença para o sucesso geral do produto. Vcoê pode da uma olhada nos meus trabalhos na aba 'Projetos'. Além disso, sou entusiasta em criar conteúdos online para ajudar iniciantes no desenvolvimento web. Conferira meu canal no YouTube aqui",
+      "texto-sobre-mim": "Olá, sou Joice ",
       "skills": "Habilidades",
       "projetos": "Acessar Projetos"
     },
@@ -20,7 +19,21 @@
       "title":"Contato",
       "Nome":"Nome",
       "Email":"Email",
-      "Mensagem":"Digite sua mensagem"
+      "Mensagem":"Digite sua mensagem",
+      "enviar": "Enviar"
+    },
+    "Projetos":{
+      "BemEstar": "Este site foi concebido como parte do projeto voluntário CODEFICO, cujo propósito era instruir alunos no desenvolvimento web utilizando a tecnologia React.js. O BEM-ESTAR, como é chamado, proporciona aos usuários logados a capacidade de registrar suas rotinas de sono, alimentação, atividade física e humor. Posteriormente, eles podem gerenciar essas informações, visando alcançar uma vida mais saudável e equilibrada.",
+      "Fotebol":"Este projeto foi desenvolvido como atividade pratica da diciplina de Banco de Dados. O Football Focus é um site que oferece a visualização de partidas e estatísticas de campeonatos de futebol, bem como notícias relacionadas ao mundo do futebol para usuários não autenticados. Para os usuários autenticados, há a possibilidade de realizar operações CRUD (Create, Read, Update, Delete) em relação às partidas, podendo gerenciar informações como times, jogadores, e outras propriedades associadas.",
+      "acessar": "Acessar Projeto",
+      "titulo": "Principais Projetos",
+      "emDesen": "Em Desenvolvimento",
+      "concluido": "Concluído"
+    },
+    "Footer": {
+      "joice": "Joice Cristina",
+      "Midias": "Mídias Sociais",
+      "Feito-por": "Feito por Joice Cristina"
     },
     "LocaleSwitcher": {
       "locale": "{locale, select, en {Inglês} es {Espanhol} pt {Português} other {Unknown}}",

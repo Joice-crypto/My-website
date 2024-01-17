@@ -2,13 +2,13 @@ import insta from "../assets/icons8-instagram-48.png";
 import github from "../assets/icons8-github-50.png";
 import linkedin from "../assets/icons8-linkedin-48.png";
 import Image from "next/image";
-import React, { useRef } from 'react';
-
+import React from 'react';
+import {useTranslations} from 'next-intl';
 
 
 export function Footer() {
 
- 
+  const t = useTranslations('Footer');
   return (
     <footer className=" bg-black h-44 bottom-0 md:max-xl:flex grid grid-rows-1 grid-flow-row">
       
@@ -18,7 +18,7 @@ export function Footer() {
         joicecristina059@gmail.com
         </a>
 
-        <h2 className="text-white mt-7 ml-96 font-bold">Midias Sociais</h2>
+        <h2 className="text-white mt-7 ml-96 font-bold">{t('Midias')}</h2>
         <div className=" grid grid-flow-col mt-5 ml-96 justify-start ">
           <a href="https://www.instagram.com/joice_crsilva/">
             <Image
@@ -57,7 +57,7 @@ export function Footer() {
      
 
       <p className="text-white mb-9 mt-5 text-center ">
-        &copy; Copyright 2024. Made by Joice Cristina
+        &copy; Copyright 2024. {t('Feito-por')}
       </p>
     </footer>
   );

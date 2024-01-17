@@ -12,8 +12,13 @@ const config: Config = {
         'botao-roxo': '#8C276E',
         'gray-dark': '#4A4A4A',
         'green-button': '#84CC16'
-      }
+      },
+      fontFamily: {
+        titles: 'var(--font-Work-Sans)', 
+  
+       },
     },
+
   },
   plugins: [],
 }

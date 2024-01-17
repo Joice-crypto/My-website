@@ -1,8 +1,7 @@
 {
   "IndexPage": {
-    "Hello": "Hola,",
-    "Joice": "soy Joice!",
-    "apresentacao": ""
+    "Hello": "Hola, soy Joice!",
+    "apresentacao": "Soy una estudiante de Ciencias de la Computación apasionada por la tecnología desde los 15 años. Ingresé a la Universidad Federal de São João Del Rei en 2020, comenzando mi carrera universitaria en Ciencias de la Computación. A lo largo de esta trayectoria académica, he acumulado experiencias valiosas, incluida la participación activa en una empresa junior, la colaboración en proyectos de investigación, pasantías profesionales y actividades voluntarias. Estas vivencias me han proporcionado una comprensión sólida y práctica de los desafíos y oportunidades presentes en el campo de la computación. Estoy ansiosa por mejorar mis habilidades aún más y contribuir de manera significativa al avance de la tecnología."
   },
   "Header": {
     "Projetos": "Proyectos",
@@ -14,13 +13,27 @@
     "Sobre-mim": "Sobre mim",
     "texto-sobre-mim": "Olá, sou Joice uma estudante de graduação em Ciência da Computação super empolgada em me tornar uma desenvolvedora full stack. Adoro construir sites que fazem a diferença para o sucesso geral do produto. Vcoê pode da uma olhada nos meus trabalhos na aba 'Projetos'. Além disso, sou entusiasta em criar conteúdos online para ajudar iniciantes no desenvolvimento web. Conferira meu canal no YouTube aqui",
     "skills": "Habilidades",
-    "projetos": "Acessar Projetos"
+    "projetos": "Acceder a Proyectos"
   },
   "Form":{
     "title":"Contacto",
     "Nome":"Nombe",
     "Email":"Correo electrónico",
-    "Mensagem":"Escribe tu mensaje"
+    "Mensagem":"Escribe tu mensaje",
+    "enviar": "Mandar"
+  },
+  "Projetos":{
+    "BemEstar": "Este sitio web fue concebido como parte del proyecto voluntario CODEFICO, cuyo propósito era instruir a los estudiantes en el desarrollo web utilizando la tecnología React.js. Llamado BIEN ESTAR, proporciona a los usuarios autenticados la capacidad de registrar sus rutinas de sueño, alimentación, actividad física y estado de ánimo. Posteriormente, los usuarios pueden gestionar esta información con el objetivo de lograr un estilo de vida más saludable y equilibrado.",
+    "Fotebol":"Este proyecto fue desarrollado como una actividad práctica para la asignatura de Gestión de Bases de Datos. Football Focus es un sitio web que ofrece la visualización de partidos y estadísticas de campeonatos de fútbol, así como noticias relacionadas con el mundo del fútbol para usuarios no autenticados. Para los usuarios autenticados, existe la posibilidad de realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en relación con los partidos, lo que les permite gestionar información como equipos, jugadores y otras propiedades asociadas.",
+    "acessar": "Proyecto de acceso",
+    "titulo": "Principales proyectos",
+    "emDesen": "En Desarrollo",
+    "concluido": "Concluyó"
+  },
+  "Footer": {
+    "joice": "Joice Cristina",
+    "Midias": "Redes Sociales",
+    "Feito-por": "Hecho por Joice Cristina"
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, pt {Portugués} en { Inglés } es {Español} other {Unknown}}",
